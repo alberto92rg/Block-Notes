@@ -1,0 +1,17 @@
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\bin\Debug\WPF_Notepad.exe.config
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\bin\Debug\WPF_Notepad.exe
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\bin\Debug\WPF_Notepad.pdb
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\Notepad_main.g.cs
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\App.g.cs
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad_MarkupCompile.cache
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad_MarkupCompile.lref
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\Notepad_main.baml
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.g.resources
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.Properties.Resources.resources
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.csproj.GenerateResource.cache
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.csproj.CoreCompileInputs.cache
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.exe
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.pdb
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\about_as.g.cs
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\about_as.baml
+C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.csprojAssemblyReference.cache

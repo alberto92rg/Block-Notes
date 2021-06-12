@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_Notepad.about_as"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Notepad"
+        mc:Ignorable="d"
+        Title="About Us" Height="190.352" Width="357.924" ScrollViewer.VerticalScrollBarVisibility="Hidden" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#FFF1F1F1" Icon="help.png">
+    <Grid>
+        <Button x:Name="ok_butt" Content="Ok" HorizontalAlignment="Left" Margin="276,128,0,0" VerticalAlignment="Top" Width="56" Height="21" Click="ok_butt_Click"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="66" Margin="20,25,0,0" VerticalAlignment="Top" Width="67" Source="notepad.png"/>
+        <Label x:Name="lbl_title" Content="WPF Notepad Application" HorizontalAlignment="Left" Margin="122,17,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
+        <Label Content="All right reserved for Raniolo Alberto!" HorizontalAlignment="Left" Margin="122,62,0,0" VerticalAlignment="Top" FontSize="10"/>
+        <Label Content="2020 - 2021" HorizontalAlignment="Left" Margin="161,91,0,0" VerticalAlignment="Top" FontSize="10"/>
+
+    </Grid>
+</Window>
