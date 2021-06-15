@@ -167,7 +167,45 @@ namespace WPF_Notepad
             this.tbox_ctl.Foreground = Brushes.Black;
         }
 
-       
+        private void info_btt_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+        /*---Protezione al codice--- */
+           if (tbox_ctl.Text == null)
+           {
+                return;
+           }
+        /*---------------------------*/
+            if (this.cmb_zoom.SelectedIndex == 0) //50%
+           {
+                this.tbox_ctl.FontSize = 9;
+           }
+           if(this.cmb_zoom.SelectedIndex == 1) //75%
+           {
+                this.tbox_ctl.FontSize = 12;
+           }
+           if (this.cmb_zoom.SelectedIndex == 2) //100% defualt fontsize = 18!
+           {
+               this.tbox_ctl.FontSize = 18;
+           }
+           if (this.cmb_zoom.SelectedIndex == 3) //125%
+           {
+               this.tbox_ctl.FontSize = 21;
+           }
+           if (this.cmb_zoom.SelectedIndex == 4) //150%
+           {
+               this.tbox_ctl.FontSize = 24; 
+           }
+        }
+
+        private void tbox_ctl_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+            this.lbl_count_char.Content = this.tbox_ctl.Text.Length.ToString();
+        }
     }
     
 }

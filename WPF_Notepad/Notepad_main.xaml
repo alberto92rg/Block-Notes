@@ -32,7 +32,7 @@
     </Window.Resources>
 
     <Grid>
-        <TextBox x:Name="tbox_ctl" Margin="2,50,2,35.4" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" FontSize="18" BorderBrush="#FFABAFBC" Background="#FFF9F6F6" />
+        <TextBox x:Name="tbox_ctl" Margin="2,50,2,34.4" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" FontSize="18" BorderBrush="#FFABAFBC" Background="#FFF9F6F6" TextChanged="tbox_ctl_TextChanged_1"  />
         <Menu x:Name="menu" Height="50" Margin="5,0,1.6,0" VerticalAlignment="Top" Background="#FFC7BBBB" >
             <MenuItem Header="_File" Height="50" Width="100"   Cursor="Hand" Padding="10,0,6,0" Style="{DynamicResource Mystyle}" >
                 <MenuItem.Icon>
@@ -48,6 +48,7 @@
                 <MenuItem x:Name="save_butt" Header="Save As" HorizontalAlignment="Left" Height="30" Width="140" FontWeight="Normal" Background="Azure" Click="save_butt_Click"/>
                 <MenuItem x:Name="exit_butt" Header="Exit" HorizontalAlignment="Left" Height="30" Width="140" FontWeight="Normal" Background="Azure" Click="exit_butt_Click"/>
             </MenuItem>
+
             <MenuItem Header="_Edit" Height="50" Width="105" Cursor="Hand" Padding="15,0,6,0" Style="{DynamicResource Mystyle}">
                 <MenuItem.Icon>
                     <Image Source="edit.png" Margin="-4,-15,-12,4" />
@@ -89,11 +90,28 @@
 
             <!--Nota: con gli underscore inserisco gli short cut ALT + _X  X:tasto -->
         </Menu>
-        <StatusBar x:Name="status_bar" HorizontalAlignment="Left" Height="35" Margin="0,319,0,0" VerticalAlignment="Top" Width="630" Foreground="#FFF1E2E2" Background="#FFC7BBBB">
-            <StatusBarItem x:Name="imageStatusBar" Content="Info" Height="35" VerticalAlignment="Top" TabIndex="1" Foreground="Black" FontSize="16"/>
-            <StatusBarItem x:Name="label" Content="Num. Caratteri :" Height="35" VerticalAlignment="Top" TabIndex="1" Foreground="Black" FontSize="16"/>
-            <StatusBarItem x:Name="numerocaratteri" Content="{Binding ElementName=tbox_ctl, Path= MaxLength}" Foreground="Black" Height="35" VerticalAlignment="Top" TabIndex="1" Padding="11,2,0,0" FontSize="17"/>
-        </StatusBar>
 
+        <StatusBar x:Name="status_bar" HorizontalAlignment="Left" Margin="0,0,0,0.4" Width="630" Style="{DynamicResource st_style}" Height="34" VerticalAlignment="Bottom" >
+            <StatusBar.Resources>
+                <Style x:Key="st_style" TargetType="StatusBar">
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="Background" Value="Beige"/>
+                </Style>
+            </StatusBar.Resources>
+            <Button x:Name="info_btt" Content="Info" HorizontalAlignment="Left" VerticalAlignment="Center" Width="35" Height="24" Click="info_btt_Click"/>
+            <Separator Width="2" HorizontalAlignment="Left"></Separator>
+            <StatusBarItem x:Name="labelcount" Content="Count: " Foreground="Black" Margin="0,0,0,0.2" Width="51" VerticalAlignment="Center"/>
+            <Label x:Name="lbl_count_char" Content="0" Foreground="Blue" Width="30" FontSize="13" FontWeight="Bold" VerticalAlignment="Center" Height="25" HorizontalAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Separator Width="1" HorizontalAlignment="Left"></Separator>
+            <StatusBarItem Content="Zoom"  Foreground="Black" VerticalAlignment="Center"/>
+            <Separator Width="1" HorizontalAlignment="Left"></Separator>
+            <ComboBox x:Name="cmb_zoom" Width="75" SelectedIndex="2" VerticalAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="ComboBox_SelectionChanged" >
+                <ComboBoxItem Content="50%"  TabIndex="0"  />
+                <ComboBoxItem Content="75%"  TabIndex="1" />
+                <ComboBoxItem Content="100%" TabIndex="2" />
+                <ComboBoxItem Content="125%" TabIndex="3" />
+                <ComboBoxItem Content="150%" TabIndex="4" />
+            </ComboBox>
+        </StatusBar>
     </Grid>
 </Window>

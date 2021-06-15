@@ -14,4 +14,3 @@ C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WP
 C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.pdb
 C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\about_as.g.cs
 C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\about_as.baml
-C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.csprojAssemblyReference.cache
