@@ -14,3 +14,19 @@ C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WP
 C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\WPF_Notepad.pdb
 C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\about_as.g.cs
 C:\Users\araniolo\Desktop\UDEMY\UDEMY CORSO\WPF_Notepad\WPF_Notepad\obj\Debug\about_as.baml
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\bin\Debug\WPF_Notepad.exe.config
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\bin\Debug\WPF_Notepad.exe
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\bin\Debug\WPF_Notepad.pdb
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\about_as.g.cs
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\Notepad_main.g.cs
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\App.g.cs
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad_MarkupCompile.cache
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad_MarkupCompile.lref
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\about_as.baml
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\Notepad_main.baml
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad.g.resources
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad.Properties.Resources.resources
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad.exe
+C:\Users\Alberto\Desktop\BlockNotes\WPF_Notepad\obj\Debug\WPF_Notepad.pdb

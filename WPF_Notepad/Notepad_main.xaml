@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Notepad"
         mc:Ignorable="d"
-        Title="WPF Notepad Application" Height="383.6" Width="638" Background="#FFF3F0F0" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen" Icon="notepad.png">
+        Title="WPF Notepad Application" Height="383.6" Width="638" Background="#FFF3F0F0" 
+        ResizeMode="CanResizeWithGrip" 
+        WindowStartupLocation="CenterScreen"
+        Icon="notepad.png" Closing="Window_Closing">
 
     <Window.Resources>
         <Style x:Key="Mystyle" TargetType="MenuItem">

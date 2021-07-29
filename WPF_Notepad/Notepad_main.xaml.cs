@@ -206,6 +206,20 @@ namespace WPF_Notepad
         {
             this.lbl_count_char.Content = this.tbox_ctl.Text.Length.ToString();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Microsoft.Win32.SaveFileDialog save_file = new Microsoft.Win32.SaveFileDialog();
+            save_file.Filter = "Text Files|*.txt";
+            save_file.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            save_file.AddExtension = true;
+            save_file.ShowDialog();
+            if (save_file.FileName != "")
+            {
+                System.IO.File.WriteAllText(save_file.FileName, this.tbox_ctl.Text, Encoding.UTF8);
+                MessageBox.Show("Ben Fatto !");
+            }
+        }
     }
     
 }
